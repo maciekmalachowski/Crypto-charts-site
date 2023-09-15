@@ -1,6 +1,5 @@
-numpy
-pandas
-mplfinance
-mercury
-pyhon-binance
-os
+python-binance>=1.0.19
+mercury>=2.3.4
+mplfinance>=0.12.10b0
+numpy>=1.25
+pandas>=2
