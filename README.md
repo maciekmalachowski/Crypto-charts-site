@@ -42,6 +42,14 @@ pip install -r requirements.txt
 
 <br>
 
+- Create `.env` file and paste your **api** and **secret** keys from Binance API.
+```
+api_key = 'your_api_key'
+secret_key = 'your_secret_key'
+```
+
+<br>
+
 - After that run `internal mercury server` in the repository folder.
 ```
 mercury run
