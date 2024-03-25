@@ -13,17 +13,17 @@
  
 <h1 align="center" id="first-look"> First look 👀 </h1>
 
-### The *Jupyter Notebook-based* application was created to analyze market data using the Binance API using the `Python-binance` library. 
+### The *Jupyter Notebook-based* application was created to analyze market data using the Binance API using the `Python-binance` library. 
 
-### `Numpy` and `Pandas` allow user to retrieve and analyze market data. Visualization of charts is supported by `Mplfinance` which uses matplotlib.
+### `Numpy` and `Pandas` allow users to retrieve and analyze market data. Visualization of charts is supported by 'Mplfinance', which uses Matplotlib.
 
-### Open-source library *`Mercury`* allows you to add interactive widgets in jupter-notebook, so you can share your notebook as a web application, which is deployed by https://cloud.runmercury.com. 
+### Open-source library *`Mercury`* allows you to add interactive widgets in jupter-notebook, so you can share your notebook as a web application, which is deployed by https://cloud.runmercury.com.
 
 <br>
 
 <h1 align="center" id="installation">Installation ℹ</h1>
 
-- First of all, clone this repository to your device. Open your shell and paste the following comands.
+- First of all, clone this repository on your device. Open your shell and paste the following commands:
 
 *URL cloning*
 ```
@@ -35,14 +35,14 @@ git clone git@github.com:maciekmalachowski/Crypto-charts-site.git
 ```
 <br>
 
-- Then you need to install the requirements contained in the ``requirements.txt``.
+- Then, you need to install the requirements contained in ``requirements.txt``.
 ```
 pip install -r requirements.txt
 ```
 
 <br>
 
-- Create `.env` file and paste your **api** and **secret** keys from Binance API.
+- Create a `.env` file and paste your **api** and **secret** keys from the Binance API.
 ```
 api_key = 'your_api_key'
 secret_key = 'your_secret_key'
@@ -50,7 +50,7 @@ secret_key = 'your_secret_key'
 
 <br>
 
-- After that run `internal mercury server` in the repository folder.
+- After that, run `internal mercury server` in the repository folder.
 ```
 mercury run
 ```
@@ -60,23 +60,23 @@ Mercury will read all the notebooks contained in the folder and *automatically* 
 
 <h1 align="center" id="app-appearance"> App appearance 🔍</h1>
 
-- Application has a *sidebar* which is responsible for all activities related to cryptocurrency analysis.
-- Cryptocurrency analysis returns us information within a specified interval such as:
+- The application has a *sidebar*, which is responsible for all activities related to cryptocurrency analysis.
+- Cryptocurrency analysis returns us information within a specified interval, such as:
     - Current price
     - Highest price
     - Lowest price
     - Mean price
 - It also displays a *chart*, which we can freely modify.
-> ### Binance server that is being used is set to time zone UTC+0
+> ### The Binance server that is being used is set to the time zone UTC+0
 
 <p align="center"><img src="media/appearance.gif"></p>
 
 <h1 align="center" id="download">Download 💾</h1>
 
-### Mercury has option to export executed notebook to PDF or HTML. It is very simple. Click Download button in the sidebar and select desired format:
+### Mercury has the option to export an executed notebook to PDF or HTML. It is very simple. Click the Download button in the sidebar and select the desired format:
 <p align="center"><img src="media/download.png"></p>
 
-> ### First time PDF download will trigger `pyppeteer` download and installation if not available in the system.
+> ### A first-time PDF download will trigger `pyppeteer` download and installation if it is not available in the system.
 
 #### Make sure you have Chromium installed. It can be done with the following command:
 ```
